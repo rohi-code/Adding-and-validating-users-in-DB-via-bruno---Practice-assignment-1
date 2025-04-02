@@ -1,0 +1,30 @@
+{
+  "name": "express-simple-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Imagine you are developing an online marketplace where buyers and sellers need to create an account to participate. The platform requires new users to register by providing their username, email, and password. To ensure security, the password must be hashed before storing it in the database.",
+  "homepage": "https://github.com/rohi-code/Adding-and-validating-users-in-DB-via-bruno---Practice-assignment-1#readme",
+  "bugs": {
+    "url": "https://github.com/rohi-code/Adding-and-validating-users-in-DB-via-bruno---Practice-assignment-1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohi-code/Adding-and-validating-users-in-DB-via-bruno---Practice-assignment-1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.1",
+    "nodemon": "^3.1.9"
+  }
+}
